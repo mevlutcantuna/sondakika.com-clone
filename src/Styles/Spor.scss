@@ -1,0 +1,21 @@
+.spor{
+    display: flex;
+    flex-direction: column;
+
+    &__router{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        
+        &__link{
+            text-decoration: none;
+            color: grey;
+            
+        }
+    }
+    
+    &__title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}

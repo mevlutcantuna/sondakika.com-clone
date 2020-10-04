@@ -1,0 +1,13 @@
+.anasayfa{
+    margin-top: 3rem;
+
+    &__slider{
+        width: 40rem;
+    }
+
+    &__news{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

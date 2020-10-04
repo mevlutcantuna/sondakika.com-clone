@@ -1,0 +1,69 @@
+.navbar {
+  background-color: #ff7900;
+  height: 70px;
+
+  &__header {
+    margin: 0 15% 0 15%;
+
+    &__slogan {
+      width: 100%;
+      text-align: right;
+      font-weight: 400;
+      color: #fff;
+      font-size: 11px;
+      padding: 0.5rem 0 0.5rem 0;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      
+
+      &__image {
+        width: 210px;
+        height: 30px;
+      }
+
+      &__list {
+        text-align: initial;
+        &__group {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          padding: 0;
+          margin: 0;
+
+          &__item {
+            margin-left: 1.25rem;
+            font-size: 16px;
+            font-weight: 450;
+            text-transform: uppercase;
+
+            &__link {
+              color: #fff;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      &__search{
+        margin-left: 12rem;
+        
+
+        &__input{
+          background: url(https://www.sondakika.com/static/css/images/icon-searcht2.png) no-repeat right 7px bottom 3px #FFC999;;
+          border-radius: 18px;
+          height: 25px;
+          padding: 0 25px 0 10px;
+          outline: none;
+          border: 0;
+          background-size: 18px;
+          width: 100px;
+          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.kart {
+    width: 45rem;
+    height: 20rem;
+    margin-bottom: 3rem;
+  
+    &__header {
+      display: flex;
+      flex-direction: row;
+      color: black;
+      
+      &__title{
+          text-align: center;
+          font-weight: bold;
+          padding-right: 1rem;
+      }
+    }
+  }
